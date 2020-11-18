@@ -1,7 +1,4 @@
-
-
 CREATE DATABASE caso1;
-
 
 CREATE TABLE trabajador(
 rut INT
@@ -11,7 +8,6 @@ rut INT
 , PRIMARY KEY (rut)
 , FOREIGN KEY (id_dpto) REFERENCES departamento(id_dpto)
 );
-
 
 CREATE TABLE departamento(
 id_dpto INT
